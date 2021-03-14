@@ -1,2 +1,2 @@
 # jladev_portal
-Web site representing my developement book
+Web site representing my development book
