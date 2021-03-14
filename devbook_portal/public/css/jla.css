@@ -1,0 +1,250 @@
+@font-face
+{
+    font-family: 'oswald_regularregular';
+    src: url('../fonts/oswald-regular-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswaldregular_italic';
+    src: url('../fonts/oswald-regularitalic-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswald_stencilbold';
+    src: url('../fonts/oswald-stencil-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-stencil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswaldbold';
+    src: url('../fonts/oswald-bold-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswaldbold_italic';
+    src: url('../fonts/oswald-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswalddemibold';
+    src: url('../fonts/oswald-demibold-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-demibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswalddemi-bold_italic';
+    src: url('../fonts/oswald-demi-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-demi-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswaldextralight';
+    src: url('../fonts/oswald-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswaldextra-light_italic';
+    src: url('../fonts/oswald-extra-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-extra-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswaldheavy';
+    src: url('../fonts/oswald-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswaldheavy_italic';
+    src: url('../fonts/oswald-heavyitalic-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-heavyitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswaldlight';
+    src: url('../fonts/oswald-light-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswaldlight_italic';
+    src: url('../fonts/oswald-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswaldmedium';
+    src: url('../fonts/oswald-medium-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'oswaldmedium_italic';
+    src: url('../fonts/oswald-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.titleHome
+{
+	font-family:'oswald_stencilbold';
+	color:#FFF;
+	font-size: 0.85em;
+}
+
+.navBarJLA
+{
+	font-size: 24px;
+	text-shadow: rgb(0, 0, 0) 2px 2px 0px;
+}
+
+.navbar-custom .navbar-nav li a
+{
+    font-family:'oswalddemibold';
+	font-size: 18px;
+	color: #FFAE00;
+}
+
+.navbar-custom .navbar-nav li a:hover
+{
+  color: #FFF;
+  text-shadow: rgb(224, 224, 224) 0px 0px 10px;
+}
+
+.headerJLA
+{
+	background-color: #262727;
+	font-family:'oswaldextralight';
+}
+
+header .intro-text .name
+{
+    font-family:'oswald_stencilbold';
+}
+
+hr.star-light:after
+{
+  
+  background-color: #FFAE00;
+  color: white;
+  border-radius: 100px; 
+  -webkit-border-radius: 100px; 
+  -moz-border-radius: 100px; 
+}
+
+.roundAvatar
+{
+	border-radius: 25px; 
+  -webkit-border-radius: 25px; 
+  -moz-border-radius: 25px; 
+}
+
+.footer-col
+{
+	font-family:'oswald_regularregular';
+}
+
+.footer-below
+{
+	font-family:'oswaldextralight';
+}
+
+.projectTitle
+{
+	font-family:'oswald_stencilbold';
+	color: #FFF;
+	font-size: 4em;
+}
+
+h2
+{
+	font-family:'oswald_stencilbold';
+}
+
+h3
+{
+	font-family:'oswalddemi-bold_italic';
+	text-shadow: rgb(0, 0, 0) 2px 2px 0px;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #18BC9C;
+  background: black;
+  border: solid 2px white;
+}
+
+.sn
+{
+  color: #FFAE00;
+}
+
+section 
+{
+  padding: 30px 0;
+}
+
+.portfolio-item
+{
+  margin-bottom: 10px;
+}
+
+.modal-content
+{
+	background-color: #2C3E50;
+}
+
+.backgroundProject
+{
+	background-color: #262727;
+}

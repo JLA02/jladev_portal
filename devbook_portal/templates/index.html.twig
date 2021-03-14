@@ -1,0 +1,375 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+{{app_title}}
+{% endblock %}
+
+{% block body %}
+<div id="skipnav"><a href="#maincontent"></a></div>
+
+	<!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom navBarJLA">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only"></span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand titleHome" href="#page-top">DevBook : Jean-Louis AMADI</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#desktop">Desktop</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#mobile">Mobile</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#web">Web</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#games">Games</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#curriculum">Curriculum</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header class="headerJLA">
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive roundAvatar" src="img/myAvatar.png" alt="">
+                    <div class="intro-text">
+                        <h1 class="name">Welcome !</h1>
+                        <hr class="star-light">
+                        <span class="skills">Developer Multiplatform - Windows - Linux - Mac - iOS - Android</span><br>
+                        <span class="skills">C - C++ - C# - Sql</span><br>
+                        <span class="skills">HTML5 - CSS3 - PHP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Portfolio Grid Section -->
+    <section class="portfolio" id="desktop">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Desktop</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <img src="img/project-item.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                           
+                            <div class="card-body">
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <img src="img/project-item.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                           
+                            <div class="card-body">
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <img src="img/project-item.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                           
+                            <div class="card-body">
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Mobile</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <img src="img/project-item.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <img src="img/project-item.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <img src="img/project-item.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="web">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Web</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <img src="img/project-item.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <img src="img/project-item.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <img src="img/project-item.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="games">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Games</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                        <img src="img/project-item.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                        <img src="img/project-item.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                        <img src="img/project-item.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Stay in Touch with me !</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Curriculum Vitae</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+ <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>France</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook sn"></i></a>
+                            </li>
+                            <!--
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter sn"></i></a>
+                            </li>
+                            -->
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin sn"></i></a>
+                            </li>
+                            <!--
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Viadeo</span><i class="fa fa-fw fa-viadeo sn"></i></a>
+                            </li>
+                            -->
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">GutHub</span><i class="fa fa-fw fa-github sn"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About my activities</h3>
+                        <!--
+                        <p>You can throw an eye regarding the progress of each project grace to my <a href="#">Dashboard</a>.</p>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; DevBook - JLA @2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content"><h1 class="projectTitle">Title</h1>
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+
+                    </div>
+                </div>
+            </div>
+            <div class="container backgroundProject">
+                <div class="row">
+                            <section>
+						        <div class="container">
+						            <div class="row">
+						                <div class="col-lg-12 text-center">
+						                    <h2>Description</h2>
+						                    <hr class="star-light">
+						                </div>
+						            </div>
+						            <div class="row">
+						            </div>
+						        </div>
+						    </section>
+                            <section>
+						        <div class="container">
+						            <div class="row">
+						                <div class="col-lg-12 text-center">
+						                    <h2>Technology</h2>
+						                    <hr class="star-light">
+						                </div>
+						            </div>
+						            <div class="row">
+						            </div>
+						        </div>
+						    </section>
+						    <section>
+						        <div class="container">
+						            <div class="row">
+						                <div class="col-lg-12 text-center">
+						                    <h2>VIDEOS</h2>
+						                    <hr class="star-light">
+						                </div>
+						            </div>
+						            <div class="row">
+						            	<div class="col-sm-4 portfolio-item">
+						                    <a class="portfolio-link" data-toggle="modal">
+						                        <img src="img/project-item.png" class="img-responsive" alt="">
+						                    </a>
+						                </div>
+						                <div class="col-sm-4 portfolio-item">
+						                    <a class="portfolio-link" data-toggle="modal">
+						                        <img src="img/project-item.png" class="img-responsive" alt="">
+						                    </a>
+						                </div>
+						                <div class="col-sm-4 portfolio-item">
+						                    <a class="portfolio-link" data-toggle="modal">
+						                        <img src="img/project-item.png" class="img-responsive" alt="">
+						                    </a>
+						                </div>
+						            </div>
+						        </div>
+						    </section>
+						    <section>
+						        <div class="container">
+						            <div class="row">
+						                <div class="col-lg-12 text-center">
+						                    <h2>PICTURES</h2>
+						                    <hr class="star-light">
+						                </div>
+						            </div>
+						            <div class="row">
+						            </div>
+						        </div>
+						    </section>
+						    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
