@@ -64,6 +64,11 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive roundAvatar" src="img/under-construction.gif" alt="UNDER CONSTRUCTION">
+                </div>
+            </div>
         </div>
     </header>
 
@@ -232,12 +237,36 @@
                 <div class="col-lg-12 text-center">
                     <h2>Curriculum Vitae</h2>
                     <hr class="star-primary">
+                    <div class="resume-date text-md-right">
+                    <span class="text-primary" style="font-size:40px;">{{year}}</span>
+                    </div>
                 </div>
             </div>
             <div class="row">
             </div>
         </div>
     </section>
+    <section id="cd-timeline" class="cd-container">
+        {% for timeline in timelines %}
+		  <!--exp-->
+		  <div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture"></div>
+			<div class="cd-timeline-content">
+				<h3 class="compagny">{{timeline.getCompany()}}</h3>
+				<div class="timeline-content-info">
+				  <span class="timeline-content-info-title">
+					<i class="fa fa-certificate" aria-hidden="true"></i>
+					{{timeline.getJob()}}
+				  </span><br>
+				  <span class="timeline-content-info-date">
+					<i class="fa fa-calendar-o" aria-hidden="true"></i>
+					{{timeline.getStartDate()}} - {{timeline.getEndDate()}}
+				  </span>
+				</div>
+			</div> <!-- cd-timeline-content -->
+		   </div> <!-- cd-timeline-block -->
+        {% endfor %}
+	</section>
 
  <!-- Footer -->
     <footer class="text-center">
@@ -252,7 +281,7 @@
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook sn"></i></a>
+                                <a href="https://www.facebook.com/jeanlouis.amadi" target="_blank" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook sn"></i></a>
                             </li>
                             <!--
                             <li>
@@ -260,15 +289,10 @@
                             </li>
                             -->
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin sn"></i></a>
+                                <a href="https://www.linkedin.com/in/jeanlouis-amadi-836163185/" class="btn-social btn-outline" target="_blank"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin sn"></i></a>
                             </li>
-                            <!--
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Viadeo</span><i class="fa fa-fw fa-viadeo sn"></i></a>
-                            </li>
-                            -->
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">GutHub</span><i class="fa fa-fw fa-github sn"></i></a>
+                                <a href="https://github.com/JLA02" class="btn-social btn-outline" target="_blank"><span class="sr-only">GutHub</span><i class="fa fa-fw fa-github sn"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -285,7 +309,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; DevBook - JLA @2017
+                        Copyright &copy; {{app_title}}@{{year}}
                     </div>
                 </div>
             </div>
