@@ -31,7 +31,7 @@ class HomeDevBook extends AbstractController
             //send email
             $contactFormData = $form->getData();
 
-            dump($contactFormData);
+            //dump($contactFormData);
 
             if($contactFormData['check'] == true)
             {
@@ -44,6 +44,10 @@ class HomeDevBook extends AbstractController
             }
             //app_homedevbook_home
            return $this->redirectToRoute('app_homedevbook_home');
+
+           //For production because the css are not reloaded else, i don't know why...
+           //Maybe when i will set the prod env it will not be necessary to do that anymore
+           //return $this->redirect('https://jla-dev.com/');
         }
 
         return $this->render('index.html.twig', ["app_title" => $appTitle,"copyright" => $currentAuthor, "year" => $currentYear, "timelines" => $timelines, "form" => $form->createView() ]);
