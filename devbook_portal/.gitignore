@@ -17,4 +17,4 @@
 
 /.env
 /.env.test
-/config/packages/swiftmailer.yaml
+/config/packages/dev/swiftmailer.yaml
